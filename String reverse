@@ -1,0 +1,18 @@
+public class String_reverse {
+
+	public static void main(String[] args) {
+
+		
+		String str="OTATOP";
+		String rev="";
+		int ln=str.length();
+		
+		for(int i=ln-1;i>=0;i--) {
+			rev=rev+str.charAt(i);
+		}
+		System.out.println("The given String is:" +str);
+		System.out.println("The reversed string is:"+ rev);
+		
+	}
+
+}
