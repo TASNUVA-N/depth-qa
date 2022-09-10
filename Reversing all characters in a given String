@@ -1,0 +1,18 @@
+public class StringReversedAllAllChars {
+
+	public static void main(String[] args) {
+		String str="I am so happy";
+		String rev="";
+		
+		char[] arr=str.toCharArray();
+		int lnth=arr.length;
+		
+	
+	
+	for(int i=lnth-1;i>=0;i--) {
+		rev=rev+arr[i];
+	}
+	System.out.println("The String is:" +str);
+	System.out.println("The reversed string is:"+ rev);
+}
+}
